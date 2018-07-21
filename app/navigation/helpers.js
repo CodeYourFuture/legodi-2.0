@@ -30,7 +30,7 @@ export const tabBarVisibility = (navigation) => {
   let initialValue = true
   navigation.state.routes.map(route => {
     const { routeName } = route
-    if (routeName === 'Article' || routeName === 'Articles' || routeName === 'Game') {
+    if (routeName === 'Article' || routeName === 'Articles') {
       initialValue = false
       return initialValue
     }
