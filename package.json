@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/CodeYourFuture/legodi-2.0#readme",
   "dependencies": {
-    "knex": "^0.15.2",
+    "knex": "^0.19.5",
     "pg": "^7.4.3",
     "strapi-generate-migrations": "^2.0.2"
   },
